@@ -1,0 +1,14 @@
+var SegOne = [];
+var SegTwo = [];
+
+for (var id=1; id<=100; id++) {
+  if(id%2===0) {
+    SegOne.push(id);
+  } else
+  {
+   SegTwo.push(id);
+  }
+}
+
+console.log("First Segment of the users =" +SegOne);
+console.log("Second Segment of the users =" +SegTwo);
